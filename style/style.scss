@@ -1,0 +1,11 @@
+$base-color: blue;
+$font-size:(
+    "small": 20px,
+    "medium": 30px,
+    "extra": 40px,
+);
+
+p{
+    color: $base-color;
+    font-size: map-get($font-size, extra );
+}
